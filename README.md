@@ -1,7 +1,7 @@
 External Graph Formatter
 ========================
 
-##### Function
+##### Purpose
 
 +  graph format converter in *external memory* from *edge stream* to *adjacency lists*.
 +  can replace void NxParser() function for graphs in other raw formats (BTC graphs by default)
