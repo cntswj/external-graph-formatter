@@ -3,8 +3,12 @@ external-graph-formatter
 
 ##### Function
 
-+  Graph format converter in external memory from edge stream to adjacency lists.
-+  Can replace void NxParser() function for graphs in other raw formats (BTC by default)
++  graph format converter in external memory from edge stream to adjacency lists.
++  can replace void NxParser() function for graphs in other raw formats (BTC by default)
 
 ##### Argument
+single argument: input file name (ascii file)
+
+##### Output
+inputFileName_adj
 
