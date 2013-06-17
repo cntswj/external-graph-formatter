@@ -1,7 +1,3 @@
-// Adjacency-list Creator for Massive Graphs in Raw Format
-// Author: Wang Jia at CUHK
-// Replace void NxParser() function for graphs in other raw formats (BTC by default)
-
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -339,7 +335,6 @@ int main(int argc, char **argv) {
 		s_split[i] = s_raw + "_split_" + char('a'+i);
 
 	NxParse();
-	cout << "mark\n";
 	makeEdgeList();
 	makeSplits();
 	mergeSplits();
